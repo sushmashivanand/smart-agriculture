@@ -1,0 +1,237 @@
+/* =========================
+   BASIC SETTINGS
+========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f2;
+    color: #333;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 5px;
+}
+
+header p {
+    margin: 5px;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c8e6c9;
+}
+
+
+/* =========================
+   HOME
+========================= */
+
+.home {
+    background-color: #81c784;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home h2 {
+    font-size: 40px;
+}
+
+.home p {
+    font-size: 20px;
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color: #2e7d32;
+    font-size: 30px;
+}
+
+
+/* =========================
+   INFORMATION BOX
+========================= */
+
+.info-box {
+    background-color: white;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: left;
+    border-left: 5px solid #4caf50;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.info-box h3 {
+    color: #388e3c;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.card h3 {
+    color: #388e3c;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* =========================
+   IMAGE GALLERY
+========================= */
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.image-gallery img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   FARMER TIPS
+========================= */
+
+.tips {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tips div {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.tips h3 {
+    color: #388e3c;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* =========================
+   MOBILE VIEW
+========================= */
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .home h2 {
+        font-size: 30px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .image-gallery img {
+        width: 90%;
+    }
+
+}
